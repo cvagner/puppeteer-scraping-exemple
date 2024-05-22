@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-scraping-exemple",
+  "version": "1.0.0",
+  "description": "Automatise des téléchargements en simulant des clics avec Pupeeteer",
+  "author": "Charles-Henry Vagner",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "execute": "node index.js",
+    "execute-all": "node index.js --startChapter=1 --endChapter=1114"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "puppeteer": "^22.9.0"
+  }
+}
